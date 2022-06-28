@@ -1,5 +1,4 @@
-import React from "react";
-import { createStyles, styled , Theme } from "@mui/material/styles";
+import { createStyles, styled, Theme } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import Avatar from "@mui/material/Avatar";
 import Typography from "@mui/material/Typography";
@@ -17,13 +16,13 @@ const useStyles = styled((theme: Theme) =>
   })
 );
 
-const MyAvatar: React.FC = () => {
+const MyAvatar = () => {
   const classes: any = useStyles();
 
   return (
     <>
       <Box p={2}>
-        <Box display="flex" justifyContent="center" p={1} >
+        <Box display="flex" justifyContent="center" p={1}>
           <Avatar alt="Ayano Miura" src={ImageFile} className={classes.large} />
         </Box>
         <Box display="flex" justifyContent="center" p={1}>
