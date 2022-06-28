@@ -1,10 +1,14 @@
-import React from 'react';
-import NavBar from './components/Navbar';
+import React from "react";
+import NavBar from "./components/Navbar";
+import MyAvatar from "./components/MyAvatar";
 
 const App = () => {
   return (
-    <NavBar/>
+    <>
+      <NavBar />
+      <MyAvatar />
+    </>
   );
-}
+};
 
 export default App;
