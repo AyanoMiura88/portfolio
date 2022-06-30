@@ -3,6 +3,7 @@ import NavBar from "./components/Navbar";
 import MyAvatar from "./components/MyAvatar";
 import About from "./components/About";
 import Skills from "./components/Skills";
+import Works from "./components/Works";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <MyAvatar />
       <About />
       <Skills />
+      <Works />
     </>
   );
 };
