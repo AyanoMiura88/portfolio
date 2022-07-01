@@ -1,8 +1,6 @@
 import Box from "@mui/material/Box";
 import { createStyles } from "@mui/material/styles";
-import Typography from "@mui/material/Typography";
-import Card from "@mui/material/Card";
-import CardContent from "@mui/material/CardContent";
+import { Card, CardContent, Typography } from "@mui/material";
 
 const useStyles = () =>
   createStyles({

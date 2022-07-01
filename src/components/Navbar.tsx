@@ -1,33 +1,18 @@
-import React from "react";
-import AppBar from "@mui/material/AppBar";
-import Toolbar from "@mui/material/Toolbar";
-import Button from "@mui/material/Button";
+import { AppBar, Button, Toolbar } from "@mui/material";
 
 const NavBar = () => {
-  return(
+  return (
     <>
-      <AppBar
-        color='default'
-        position='static'
-        style={{ alignItems: 'center'}}
-      >
+      <AppBar color="default" position="static" style={{ alignItems: "center" }}>
         <Toolbar>
-          <Button>
-            ABOUT
-          </Button>
-          <Button color='inherit'>
-            SKILLS
-          </Button>
-          <Button color='inherit'>
-            Works
-          </Button>
-          <Button color='inherit'>
-            CONTACT
-          </Button>
+          <Button>ABOUT</Button>
+          <Button color="inherit">SKILLS</Button>
+          <Button color="inherit">WORKS</Button>
+          <Button color="inherit">CONTACT</Button>
         </Toolbar>
       </AppBar>
     </>
-  )
+  );
 };
 
 export default NavBar;
