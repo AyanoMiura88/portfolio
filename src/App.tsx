@@ -1,4 +1,3 @@
-import React from "react";
 import NavBar from "./components/Navbar";
 import MyAvatar from "./components/MyAvatar";
 import About from "./components/About";
@@ -9,12 +8,24 @@ import Contact from "./components/Contact";
 const App = () => {
   return (
     <>
-      <NavBar />
-      <MyAvatar />
-      <About />
-      <Skills />
-      <Works />
-      <Contact/>
+      <section>
+        <NavBar />
+      </section>
+      <section>
+        <MyAvatar />
+      </section>
+      <section id="about">
+        <About />
+      </section>
+      <section id="skills">
+        <Skills />
+      </section>
+      <section id="works">
+        <Works />
+      </section>
+      <section id="contact">
+        <Contact />
+      </section>
     </>
   );
 };
