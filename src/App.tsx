@@ -4,6 +4,7 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import Works from "./components/Works";
 import Contact from "./components/Contact";
+import ScrollUp from "./components/ScrollUp";
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
       <section id="contact">
         <Contact />
       </section>
+      <ScrollUp/>
     </>
   );
 };
