@@ -1,18 +1,7 @@
 import Box from "@mui/material/Box";
-import { createStyles } from "@mui/material/styles";
 import { Card, CardContent, Typography } from "@mui/material";
 
-const useStyles = () =>
-  createStyles({
-    root: {
-      width: 730,
-      maxWidth: "100%",
-    },
-  });
-
 const Skills = () => {
-  const classes: any = useStyles();
-
   return (
     <>
       <Box p={2}>
@@ -20,39 +9,18 @@ const Skills = () => {
           <Typography variant="h5">Skills</Typography>
         </Box>
         <Box display="flex" justifyContent="center" p={1}>
-          <Card className={classes.root}>
+          <Card sx={{ width: 500 }}>
             <CardContent>
               <Typography variant="h6">言語</Typography>
-              <Typography color="textSecondary">Ruby / PHP / JavaScript / TypeScript</Typography>
+              <Typography color="textSecondary">JavaScript / TypeScript</Typography>
             </CardContent>
           </Card>
         </Box>
         <Box display="flex" justifyContent="center" p={1}>
-          <Card className={classes.root}>
+          <Card sx={{ width: 500 }}>
             <CardContent>
               <Typography variant="h6">フレームワーク</Typography>
-              <Typography color="textSecondary">
-                Ruby on Rails / Sinatra / Laravel / React
-              </Typography>
-            </CardContent>
-          </Card>
-        </Box>
-        <Box display="flex" justifyContent="center" p={1}>
-          <Card className={classes.root}>
-            <CardContent>
-              <Typography variant="h6">データベース</Typography>
-              <Typography color="textSecondary">MySQL / PostgreSQL</Typography>
-            </CardContent>
-          </Card>
-        </Box>
-        <Box display="flex" justifyContent="center" p={1}>
-          <Card className={classes.root}>
-            <CardContent>
-              <Typography variant="h6">AWS</Typography>
-              <Typography color="textSecondary">
-                EC2 / ECS / ECR / Lambda / SQS / SNS / Elastic Beanstalk / S3 / Cloud9 / CloudWatch
-                / CloudFormation / RDS / Route53
-              </Typography>
+              <Typography color="textSecondary">React</Typography>
             </CardContent>
           </Card>
         </Box>

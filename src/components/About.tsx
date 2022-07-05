@@ -10,11 +10,11 @@ const About = () => {
         </Box>
         <Box display="flex" justifyContent="center" p={1}>
           <Typography variant="body1" align="left">
-            私の名前は田中太郎です。
+            私の名前は三浦綾乃です。
             <br />
             東京でWebエンジニアとして働いています。
             <br />
-            好きな言語・フレームワークはTypeScriptとReactです。
+            {/* 好きな言語・フレームワークはTypeScriptとReactです。 */}
           </Typography>
         </Box>
       </Box>

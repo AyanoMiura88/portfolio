@@ -1,27 +1,14 @@
-import { createStyles, styled, Theme } from "@mui/material/styles";
 import { Box, Avatar, Typography } from "@mui/material";
 
 // 画像ファイルをインポート
 import ImageFile from "../static/images/avatar.jpg";
 
-const useStyles = styled((theme: Theme) =>
-  createStyles({
-    // 表示サイズを指定
-    large: {
-      width: theme.spacing(30),
-      height: theme.spacing(30),
-    },
-  })
-);
-
 const MyAvatar = () => {
-  const classes: any = useStyles();
-
   return (
     <>
       <Box p={2}>
         <Box display="flex" justifyContent="center" p={1}>
-          <Avatar alt="Ayano Miura" src={ImageFile} className={classes.large} />
+          <Avatar alt="Ayano Miura" src={ImageFile} sx={{ width: 300, height: 300 }} />
         </Box>
         <Box display="flex" justifyContent="center" p={1}>
           <Typography variant="h5">Ayano Miura</Typography>
